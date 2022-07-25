@@ -1,0 +1,47 @@
+
+.about_beer_section {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  a {
+    text-decoration: none;
+  }
+  .about_beer_list {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #EBEBF1;
+    border-radius: 15px;
+    margin: 50px 20px 0 0;
+    cursor: pointer;
+    text-align: center;
+    height: 550px;
+    img {
+      width: 300px;
+      height: 300px;
+      padding-top: 10px;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-align: start;
+      padding-left: 5px;
+      color: #282c34;
+    }
+    h4 {
+      color: #EF6D58;
+    }
+  }
+  .about_beer_list:hover {
+    transform: scale(1.1);
+  }
+}
+.app_section_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 5%;
+}

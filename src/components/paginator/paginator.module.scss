@@ -1,0 +1,45 @@
+
+.paginator_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  .selectedPage {
+    color: #EF6D58;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .pages {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paginator_button_left {
+    background-image: url("../../images/left-arrow.png");
+    background-size: 40px;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .paginator_button_right {
+    background-image: url("../../images/right-arrow.png");
+    width: 43px;
+    height: 43px;
+    background-size: 40px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
